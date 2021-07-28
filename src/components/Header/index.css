@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.route-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
+@media (max-width: 575px) {
+  .header-container {
+    padding: 15px;
+  }
+}

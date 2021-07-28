@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: Center;
+}
+.not-found-img {
+  width: 250px;
+}
+.notfound-heading {
+  color: #6d396b;
+  font-family: 'roboto';
+  font-size: 30px;
+}
+
+@media (min-width: 576px) {
+  .not-found-heading {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 576px) {
+  .not-found-heading {
+    font-size: 48px;
+  }
+}
